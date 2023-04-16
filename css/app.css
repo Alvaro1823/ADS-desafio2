@@ -1,0 +1,232 @@
+body {
+  background-color: #393b42 !important;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.center {
+  margin-left: 25%;
+}
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+.center-3 {
+  margin-left: 33.3%;
+}
+.center-2 {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header {
+  background-color: black;
+  height: 150px;
+}
+header img {
+  margin-top: px;
+  height: 150px;
+}
+footer {
+  background-color: black;
+  height: 300px;
+}
+footer img {
+  margin-top: px;
+  height: 150px;
+}
+.logo {
+  height: 100px;
+  padding-top: 25px;
+  transition: all ease 0.1s;
+}
+.cafe {
+  transition: all ease 0.1s;
+}
+.cafe:hover {
+  scale: 90%;
+}
+.logo:hover {
+  scale: 85%;
+}
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.img-cafe {
+  height: 100%;
+}
+.gris {
+  color: #b2b5c8;
+  transition: all ease 0.3s;
+}
+.gris:hover {
+  color: aliceblue;
+  scale: 125%;
+}
+@media (max-width: 488px) {
+  .header-1 {
+    justify-content: center;
+    display: inline;
+  }
+  .cafe {
+    display: none;
+  }
+  .enlace {
+    display: flex;
+    flex-direction: row;
+  }
+  body {
+    text-align: center;
+  }
+}
+.main-nav {
+  background-color: #292a31;
+}
+.enlace {
+  color: #b2b5c8;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 162.5px;
+  display: inline-block;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+.nav-aling {
+  text-align: center;
+}
+
+.enlace-activo {
+  background-color: #393b42;
+}
+.enlace:hover {
+  color: white;
+  background-color: black;
+}
+@media (max-width: 768px) {
+  footer .logo {
+    display: none;
+  }
+  footer .redes {
+    display: none;
+  }
+}
+.nav-footer {
+  margin-top: 12px;
+}
+.enlace-footer {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #b2b5c8;
+}
+.enlace-footer:hover {
+  font-weight: bold;
+}
+.redes img {
+  scale: 25%;
+  transition: all ease 0.3s;
+}
+.redes:hover img {
+  scale: 35%;
+}
+
+.scale {
+  transition: all ease-in-out 0.3s;
+}
+.scale:hover {
+  scale: 80%;
+}
+
+.derechos {
+  background-color: black;
+  color: #b2b5c8;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+main {
+  padding: 40px 0;
+  color: white;
+}
+/*carlos*/
+
+.caja_central {
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.form-info {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+}
+
+.mb-3 {
+  width: 90%;
+}
+
+.form-info p {
+  text-align: justify;
+}
+
+#icon {
+  text-decoration: none;
+}
+
+.custom-table > :not(caption) > * > * {
+  width: 50%;
+  text-align: center;
+}
+.bold {
+  font-weight: bold!important;
+  font-size: 1.8rem;
+}
+/*Carlos*/
+.name-center {
+  text-align: center;
+}
+#photo{
+  width: 200px;
+  border-radius: 10px;
+}
+
+#box{
+  column-count: 2;
+  column-gap: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+/*alvaro*/
+
+
+
+.menu-cafe img{
+height: 100%;
+height: 250px;
+
+}
+#fhoto-cafe{
+  width: 200px;
+  border-radius: 10px;
+}
+#historia-cafe{
+  text-align: justify;
+}
